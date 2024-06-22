@@ -17,11 +17,11 @@ This project demonstrates how to use BrowserMob Proxy and Selenium to perform we
 
 ## Project Structure
 The project includes the following files:
-- **Part 2.py**: The main Python script that performs the web crawling.
+- **web_crawler.py**: The main Python script that performs the web crawling.
 - **top-1m.csv**: A CSV file containing the list of URLs to be crawled.
 - **bmp.log**: Log file for BrowserMob Proxy.
 - **server.log**: Log file for the server operations.
-- **browserproxy-mob/**: (not provided) Directory containing BrowserMob Proxy executable and related files.
+- **browserproxy-mob/**: (not provided) Directory expected to contain BrowserMob Proxy executable and related files.
 
 ## Getting Started
 
@@ -54,13 +54,13 @@ The project includes the following files:
 
 2. Run the web crawler script:
    ```sh
-   python Part 2.py
+   python web_crawler.py
    ```
 
 3. The script will crawl up to 1000 URLs (or as configured) and save the HAR files in the specified folder.
 
 ## Configuration
-- **Maximum Crawl Limit**: Adjust the `maxCrawl` variable in `Part 2.py` to change the number of URLs to crawl.
+- **Maximum Crawl Limit**: Adjust the `maxCrawl` variable in `web_crawler.py` to change the number of URLs to crawl.
 - **Timeout Settings**: Adjust the `driver.set_page_load_timeout(45)` line to change the page load timeout duration.
 
 ## Logs

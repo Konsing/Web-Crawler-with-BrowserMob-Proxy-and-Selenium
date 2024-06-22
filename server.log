@@ -1,0 +1,14 @@
+Running BrowserMob Proxy using LittleProxy implementation. To revert to the legacy implementation, run the proxy with the command-line option '--use-littleproxy false'.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/C:/Users/manyu/OneDrive/Desktop/ECS%20152A/Project%202/browsermob-proxy/lib/browsermob-dist-2.1.4.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO  2023-11-19T20:25:13,616 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.4 
+[INFO  2023-11-19T20:25:13,639 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2023-11-19T20:25:13,805 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[INFO  2023-11-19T20:25:13,859 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:8080 
+[INFO  2023-11-19T20:25:14,737 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp392289808-31) Starting proxy at address: 0.0.0.0/0.0.0.0:8081 
+[INFO  2023-11-19T20:25:14,756 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp392289808-31) Proxy listening with TCP transport 
+[INFO  2023-11-19T20:25:15,091 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp392289808-31) Proxy started at address: /0:0:0:0:0:0:0:0:8081 
+[WARN  2023-11-19T20:25:16,146 net.lightbody.bmp.mitm.util.SslUtil] (LittleProxy-0-ClientToProxyWorker-0) Disabling upstream server certificate verification. This will allow attackers to intercept communications with upstream servers. 

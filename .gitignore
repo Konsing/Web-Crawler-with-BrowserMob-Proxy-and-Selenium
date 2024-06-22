@@ -1,0 +1,9 @@
+# Ignore .ipynb_checkpoints
+.ipynb_checkpoints
+
+# Ignore the browsermob-proxy
+browsermob-proxy
+
+# Ignore har folder
+har/
+

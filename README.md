@@ -11,8 +11,6 @@ This repository contains a web crawling project that uses BrowserMob Proxy and S
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Logs](#logs)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This project demonstrates how to use BrowserMob Proxy and Selenium to perform web crawling and capture network traffic in HAR format. It is designed to handle a large number of URLs, manage timeouts, and log any errors that occur during the crawling process.
